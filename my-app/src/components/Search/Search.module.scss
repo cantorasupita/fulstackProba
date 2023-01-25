@@ -1,0 +1,32 @@
+.root {
+    position: relative
+}
+
+
+.input{
+    border:  1px solid dark;
+    padding: 12px 120px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+
+.icon {
+    position: absolute;
+    left: 120;
+    top: 10;
+    width: 30px;
+    height: 30px;
+}
+
+.clearInput {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 30px;
+    cursor: pointer
+}
